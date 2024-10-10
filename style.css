@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        .btn-primary {
+            background-color: #6f42c1 !important;
+            border-color: #6f42c1 !important;
+        }
+
+        /* Body */ 
+            body {
+                overflow: hidden;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+                padding:0px;
+                margin:0px;
+                width:100%;
+                height:100%;
+                font-family: 'Poppins' !important;
+
+            }
+            body::-webkit-scrollbar {
+                display: none;
+            }
+        /* Navbar */
+            .navbar {
+                box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+                
+            }
+            .navbar-link {
+                color: rgb(245, 245, 245);
+                font-weight: 500;
+            }
+            /* .navbar-brand img{
+                width: 35px
+            } */
+        /* Carousel */
+            .carousel{
+                padding-top: 57px;
+                height: 100vh;
+                vertical-align: middle;
+                margin: auto;
+                position: relative;
+            }
+            .carousel-inner{
+                padding-top: 57px;
+                height: 100vh;
+                vertical-align: middle;
+                margin: auto;
+                bottom: 0;
+                position: absolute;
+            }
+            .carousel-item{
+                padding-top: 57px;
+                position: absolute;
+                bottom: 0;
+            }
+            img.d-block{
+                padding-top: 50px;
+                object-fit: cover;
+                height: 100vh;
+                position: relative;
+            }    
+            .carousel::after{
+                content: '';
+                display: block;
+                width: 100%;
+                height: 70%;
+                background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+                position: absolute;
+                bottom: 0;
+            }
+        /* Jumbotron */
+            .jumbotron {
+                background: none;
+                position: relative;
+                padding-left: 0px;
+                padding-bottom: 0px;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                color: whitesmoke;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+            }
+   
+            .jumbotron .lead {
+                font-weight: 10;
+                font-size: 18px;
+            }
+        /* Card penglaamn */
+            .card {
+                margin: 5px;
+            }
+            .card-body {
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        /* Footer */
+            #futer {
+                text-align: right;
+                font-size: 7px;
+                font-weight: 200;
+                margin-top: -20px;
+                bottom: 0;
+                position: relative;
+                background-image: none;
+                color: whitesmoke;
+                z-index: 1;
+                box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            }
+        /* Form */
+            #formdaftar {
+                margin-top: 120px;
+            }
+            .modal-header {
+                display: inline-block;
+            }
+            .md-form {
+                padding-top: 16px;
+            }
+            input::placeholder{
+                font-weight: 100;
+                color: rgba(0, 0, 0, 0.2);
+            }
+            .form-control-plaintext{
+                border: rgba(0, 0, 0, 0.4);
+                border: 1px;
+            }
+
+@media (min-width:0) and (max-width: 575px) {
+    .jumbotron {
+        margin-top: -135%;
+    }
+    #fotoform1 {
+        display: none;
+    }
+    .nav {
+        display: none !important;
+    }
+    #colsitbgoldar {
+        border: none;
+    }
+    label.text-right {
+        text-align: left !important;
+    }
+    img.card-img-top{
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .jumbotron {
+        margin-top: -71%;
+    }
+    #fotoform1 {
+        display: none;
+    }
+    .modal-lg {
+        max-width: 95% !important;
+    }
+    .nav {
+        display: none !important;
+    }
+    #colsitbgoldar {
+        border: none;
+    }
+    label.text-right {
+        text-align: left !important;
+    }
+    img.card-img-top{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+        margin-top: -51%;
+        width: 75%;
+    }
+    #fotoform1 {
+        display: none;
+    }
+    .modal-lg {
+        max-width: 90% !important;
+    }
+    .tab-content {
+        margin-top: -20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1999px) {
+    .jumbotron {
+        margin-top: -35%;
+        width: 65%;
+    }
+    .tab-content {
+        margin-top: -20px;
+    }
+}
+@media (min-width: 1200px) {
+    .jumbotron {
+        margin-top: -30%;
+        width: 55%;
+    }
+    .tab-content {
+        margin-top: -20px;
+    }
+}
